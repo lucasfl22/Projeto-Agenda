@@ -8,68 +8,6 @@
     <link rel="stylesheet" href="{% static 'global/css/style.css' %}">
 </head>
 <body>
-    <header class="header">
-        <h1 class="title">Agenda</h1>
-        <div class="nav">
-            <a href="#" class="nav-link create">Create</a>
-            <a href="#" class="nav-link profile">Profile</a>
-            <a href="#" class="nav-link exit">Exit</a>
-        </div>
-        <input type="text" class="search" placeholder="Search">
-    </header>
-
-    <div class="container">
-        <section class="contacts-section">
-            <h2 class="contacts-title">Contacts</h2>
-            <table class="contacts-table">
-                <thead>
-                    <tr>
-                        <th class="table-header">ID</th>
-                        <th class="table-header">First Name</th>
-                        <th class="table-header">Last Name</th>
-                        <th class="table-header">Phone</th>
-                        <th class="table-header">Email</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="table-row">
-                        <td class="table-data">1001</td>
-                        <td class="table-data">Joana</td>
-                        <td class="table-data">Miranda</td>
-                        <td class="table-data">(35) 9 9999-8888</td>
-                        <td class="table-data">joana@email.com</td>
-                    </tr>
-                    <tr class="table-row">
-                        <td class="table-data">1002</td>
-                        <td class="table-data">Helena</td>
-                        <td class="table-data">da Cunha</td>
-                        <td class="table-data">+55 (31) 8427-7501</td>
-                        <td class="table-data">helena@email.com</td>
-                    </tr>
-                    <tr class="table-row">
-                        <td class="table-data">1003</td>
-                        <td class="table-data">Vitor</td>
-                        <td class="table-data">Gabriel Souza</td>
-                        <td class="table-data">6667-421-4247</td>
-                        <td class="table-data">vitor@email.com</td>
-                    </tr>
-                    <tr class="table-row">
-                        <td class="table-data">1004</td>
-                        <td class="table-data">José</td>
-                        <td class="table-data">Barbosa</td>
-                        <td class="table-data">0000-021-2031</td>
-                        <td class="table-data">jose@email.com</td>
-                    </tr>
-                    <tr class="table-row">
-                        <td class="table-data">1005</td>
-                        <td class="table-data">Maria</td>
-                        <td class="table-data">Mendes</td>
-                        <td class="table-data">+55 1123456789</td>
-                        <td class="table-data">maria@email.com</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-    </div>
+{% block content %}{% endblock content %} <!-- Está localizado em contact/templates/contact/index.html -->
 </body>
 </html>
